@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #cccc;
+    font-family: sans-serif;
+
+    
+}
+h1{
+
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+#title{
+    text-align: center;
+    font-size: 50px;
+}
+#inputText{
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none ;
+    font-size: 25px;
+    vertical-align:middle ;
+    border: 3px solid pink;
+    border-radius: 15px;
+    color: purple;
+    box-shadow:10px 5px 5px pink;;
+
+}
+#addToDo{
+    height: 45px;
+    width: 80px;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 10px;
+    color: yellow;
+    text-align: center;
+    box-shadow:10px 5px 5px rgb(244, 8, 47);
+}
+#clearToDo{
+    height: 45px;
+    width: 100px;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color:yellow;
+    border-radius: 10px;
+    color:red;
+    text-align: center;
+    box-shadow:10px 5px 5px rgb(239, 204, 6);
+}
+
+#addToDo:active{
+    background-color:black
+}
+#clearToDo:active{
+    background-color:brown;
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: purple;
+    text-transform: capitalize;
+}
+
+.to-dos{
+    margin-top: 25px;
+}
+
